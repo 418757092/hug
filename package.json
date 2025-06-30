@@ -1,0 +1,20 @@
+{
+  "name": "web-access",
+  "version": "1.1.0",
+  "description": "web-access",
+  "main": "server.js",
+  "author": "mgufo",
+  "repository": "",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
