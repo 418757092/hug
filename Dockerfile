@@ -16,8 +16,9 @@ RUN apk add --no-cache curl bash gawk coreutils openssl && \
 COPY . .
 
 # 6. 暴露应用监听的端口
-EXPOSE 3000/tcp
+EXPOSE 7860/tcp
 
 # 7. 定义容器启动时执行的命令 (使用 package.json 中的 "start" 脚本)
 
 CMD ["npm", "start"]
+
